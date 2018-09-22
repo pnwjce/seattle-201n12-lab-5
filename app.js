@@ -9,9 +9,9 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-  var summed = a + b;
-  var concatenated = 'The sum of ' + a + ' and ' + b + ' is ' + summed + '.';
-  var returnArray = [summed, concatenated];
+  var added = a + b;
+  var stringConnection = 'The sum of ' + a + ' and ' + b + ' is ' + added + '.';
+  var returnArray = [added, stringConnection];
   return returnArray;
 }
 
